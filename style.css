@@ -1,0 +1,20 @@
+canvas {
+    border: 10px solid aquamarine;
+    animation-name: MESSIRVE;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MESSIRVE{
+    from {
+        box-shadow: 10px 10px 10px aqua;
+    }
+    to {
+        box-shadow: 10px 10px 10px blue;
+    }
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
